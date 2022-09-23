@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-action {
+    @apply text-gray-600 py-2 px-4 rounded-full;
+}
+
+.btn-action:active {
+    @apply bg-stone-200;
+}
+
+.input {
+    @apply w-full py-2 px-5 outline-none text-base bg-slate-100 rounded-lg;
+}
+
+.input:focus {
+    @apply ring;
+}
